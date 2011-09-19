@@ -365,7 +365,8 @@ class reparse_bbcode
 					$this->_reparse_post($post_data);
 
 					// Re-submit the post through API
-					submit_post('edit', $this->data['post_subject'], $this->data['post_username'], $this->data['topic_type'], $this->poll, $post_data, true, true);
+					$username = ($this->data['post_username'] == 'Anonymous') ? $this->data['post_username'] : $this->data['username'];
+					submit_post('edit', $this->data['post_subject'], $username, $this->data['topic_type'], $this->poll, $post_data, true, true);
 				break;
 
 				case BBCODE_REPARSE_PMS :
