@@ -1,11 +1,13 @@
 <?php
 /**
 *
+* [french]
+*
 * @package Support Toolkit - Add User
-* @version 1.0.1
-* @author Maël Soucaze (Maël Soucaze) <maelsoucaze@phpbb.com> http://mael.soucaze.com/
-* @copyright (c) 2009 phpBB Group, 2009 Maël Soucaze
+* @version $Id:	papicx	1.0.7	18/04/2013	14h47	$
+* @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @Translation phpBB-fr http://www.phpbb-fr.com
 *
 */
 
@@ -35,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -48,7 +50,7 @@ $lang = array_merge($lang, array(
 	'GROUP_LEADER'			=> 'Responsable du groupe',
 	'GROUP_LEADER_EXPLAIN'	=> 'Faire de cet utilisateur le responsable des groupes sélectionnés.',
 
-	'USER_ADDED'			=> 'L’utilisateur a été créé avec succès !',
+	'USER_ADDED'			=> 'L’utilisateur a été créé.',
 	'USER_GROUPS'			=> 'Groupes d’utilisateurs',
 	'USER_GROUPS_EXPLAIN'	=> 'Faire de cet utilisateur un membre des groupes sélectionnés.',
 ));

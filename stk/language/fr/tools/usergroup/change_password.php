@@ -1,11 +1,13 @@
 <?php
 /**
 *
+* [french]
+*
 * @package Support Toolkit - Change Password
-* @version 1.0.1
-* @author Maël Soucaze (Maël Soucaze) <maelsoucaze@phpbb.com> http://mael.soucaze.com/
-* @copyright (c) 2009 phpBB Group, 2009 Maël Soucaze
+* @version $Id:	papicx	1.0.7	05/05/2013	16h07	$
+* @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @Translation phpBB-fr http://www.phpbb-fr.com
 *
 */
 
@@ -35,16 +37,21 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
 	'CHANGE_PASSWORD'			=> 'Modifier le mot de passe',
-	'CHANGE_PASSWORD_EXPLAIN'	=> 'Modifier le mot de passe d’un utilisateur.',
-	'CHANGE_PASSWORD_SUCCESS'	=> 'Le mot de passe de <a href="%s">%s</a> a été modifié avec succès.',
+	'CHANGE_PASSWORD_EXPLAIN'	=> 'Modifier le mot de passe d’un utilisateur.<br /><strong>Vous pouvez entrer le nom d’utilisateur ou votre ID utilisateur, mais pas les deux.</strong>',
+	'CHANGE_PASSWORD_SUCCESS'	=> 'Le mot de passe de <a href="%s">%s</a> a été modifié.',
+
+	'FIELDS_NOT_FILLED'			=> 'Un champ doit être rempli.',
+	'FIELDS_BOTH_FILLED'		=> 'Un seul champ peut être rempli.',
 
 	'PASSWORD_CONFIRM'			=> 'Saisissez de nouveau le mot de passe',
 
-	'USERNAMEID'				=> 'Nom ou ID de l’utilisateur',
-	'USERNAMEID_EXPLAIN'		=> 'Saisissez le nom ou l’ID de l’utilisateur dont vous souhaitez modifier le mot de passe.',
+	'USERNAME_NAME'				=> 'Nom de l’utilisateur',
+	'USERNAME_NAME_EXPLAIN'		=> 'Saisissez le nom de l’utilisateur dont vous souhaitez modifier le mot de passe.',
+	'USERNAMEID'				=> 'ID de l’utilisateur',
+	'USERNAMEID_EXPLAIN'		=> 'Saisissez l’ID de l’utilisateur dont vous souhaitez modifier le mot de passe.',
 ));

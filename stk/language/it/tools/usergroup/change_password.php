@@ -4,8 +4,7 @@
 * @package Support Toolkit - Change Password
 * @version $Id$
 * @copyright (c) 2009 phpBB Group
-* @copyright (c) 2010 phpBB.it - translated on 2010/05/16
-* @copyright (c) 2011 portalxl.eu - update translation on 2011/04/06
+* @copyright (c) 2012 phpBBItalia.net - translated on 2012-06-16
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -41,11 +40,16 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'CHANGE_PASSWORD'			=> 'Modifica Password',
-	'CHANGE_PASSWORD_EXPLAIN'	=> 'Modifica la password utenti.',
-	'CHANGE_PASSWORD_SUCCESS'	=> 'La password per <a href="%s">%s</a> è stata modificata.',
+	'CHANGE_PASSWORD_EXPLAIN'	=> 'Modifica la password di un utente.<br /><strong>Puoi inserire il nome utente o l’user ID; non entrambi.</strong>',
+	'CHANGE_PASSWORD_SUCCESS'	=> 'La password per <a href="%s">%s</a> è stata modificata con successo.',
+	
+	'FIELDS_NOT_FILLED'			=> 'Un campo deve essere compilato.',
+	'FIELDS_BOTH_FILLED'		=> 'Solo un campo può essere compilato.',
 
 	'PASSWORD_CONFIRM'			=> 'Conferma password',
 
-	'USERNAMEID'				=> 'Nome utente o ID utente',
-	'USERNAMEID_EXPLAIN'		=> 'Scrivi il nome utente o l’ID utente per modificare la password.',
+	'USERNAME_NAME'				=> 'Nome utente',
+	'USERNAME_NAME_EXPLAIN'		=> 'Inserisci il nome utente di cui vuoi modificare la password.',
+	'USERNAMEID'				=> 'User ID',
+	'USERNAMEID_EXPLAIN'		=> 'Inserisci l’user ID di cui vuoi modificare la password.',
 ));

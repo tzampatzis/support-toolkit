@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="modx.prosilver.en.xsl"?>
 <!--
-	For security purposes, please check: http://www.phpbb.com/mods/ for the latest version of this MOD.
+	For security purposes, please check: https://www.phpbb.com/mods/ for the latest version of this MOD.
 	Although MODs are checked before being allowed in the MODs Database there is no guarantee that there
 	are no security problems within the MOD. No support will be given for MODs not found within the MODs
 	Database which can be found at http://www.phpbb.com/mods/
 -->
 <!-- @id $Id$ -->
-<mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.phpbb.com/mods/xml/modx-1.2.5.xsd">
+<mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.phpbb.com/mods/xml/modx-1.2.6.xsd">
 <header>
 	<license>http://opensource.org/licenses/gpl-license.php GNU General Public License v2</license>
 	<title lang="en">Support Toolkit ACP link</title>
 	<description lang="en">Adds a link in the ACP to the Support Toolkit</description>
+	<github><![CDATA[https://github.com/phpbb/support-toolkit]]></github>
 
 	<author-group>
 		<author>
@@ -24,8 +25,8 @@
 			</contributions-group>
 		</author>
 		<author>
-			<username>Erik Frèrerejean</username>
-			<realname>Erik Frèrerejean</realname>
+			<username>Erik Frèrejean</username>
+			<realname>Erik Frèrejean</realname>
 			<homepage>http://www.erikfrerejean.nl</homepage>
 			<email>erikfrerejean@phpbb.com</email>
 			<contributions-group>
@@ -33,7 +34,7 @@
 			</contributions-group>
 		</author>
 		<author>
-			<username>iWisdom</username>
+			<username>Phil</username>
 			<realname>Phil Crumm</realname>
 			<homepage>http://p3net.net</homepage>
 			<email>iwisdom@phpbb.com</email>
@@ -43,12 +44,12 @@
 		</author>
 	</author-group>
 
-	<mod-version>1.0.5-dev</mod-version>
+	<mod-version>1.0.7-PL3</mod-version>
 
 	<installation>
 		<level>easy</level>
 		<time>60</time>
-		<target-version>3.0.9</target-version>
+		<target-version>3.0.14</target-version>
 	</installation>
 </header>
 

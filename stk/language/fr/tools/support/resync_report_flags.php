@@ -1,17 +1,19 @@
 <?php
 /**
- *
- * @package Support Toolkit - Resynchronise report flags
- * @version 1.0.1
- * @author Maël Soucaze (Maël Soucaze) <maelsoucaze@phpbb.com> http://mael.soucaze.com/  
- * @copyright (c) 2011 phpBB Group, 2011 Maël Soucaze
- * @license http://opensource.org/licenses/gpl-license.php GNU Public License
- *
- */
+*
+* [french]
+*
+* @package Support Toolkit - Resynchronise report flags
+* @version $Id:	papicx	1.0.7	18/04/2013	14h47	$
+* @copyright (c) 2011 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @Translation phpBB-fr http://www.phpbb-fr.com
+*
+*/
 
 /**
- * DO NOT CHANGE
- */
+* DO NOT CHANGE
+*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -35,12 +37,12 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
 	'RESYNC_REPORT_FLAGS'			=> 'Resynchroniser les marqueurs de rapport',
 	'RESYNC_REPORT_FLAGS_CONFIRM'	=> 'Cet outil resynchronisera les marqueurs de rapport de tous les messages, sujets et messages privés.',
-	'RESYNC_REPORT_FLAGS_FINISHED'	=> 'Tous les marqueurs de rapport ont été resynchronisés avec succès !',
-	'RESYNC_REPORT_FLAGS_NEXT'		=> 'Resynchronisation des marqueurs de rapport en cours. Merci de ne pas interrompre ce processus',
+	'RESYNC_REPORT_FLAGS_FINISHED'	=> 'Tous les marqueurs de rapport ont été resynchronisés.',
+	'RESYNC_REPORT_FLAGS_NEXT'		=> 'Resynchronisation des marqueurs de rapport en cours. Veuillez ne pas interrompre cette opération.',
 ));

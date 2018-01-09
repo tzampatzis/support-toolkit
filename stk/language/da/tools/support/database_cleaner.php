@@ -2,8 +2,6 @@
 /**
 *
 * @package Support Toolkit - Database Cleaner
-* @phpBB source: database_cleaner.php 415 2010-06-09 00:44:26Z iwisdom $
-* @version $Id: database_cleaner.php 120 2011-02-12 07:46:33Z jan skovsgaard $
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * @translated by Olympus DK Team
@@ -98,6 +96,7 @@ $lang = array_merge($lang, array(
  	'RESET_REPORT_REASONS_SUCCESS'  => 'Rapportbegrundelser blev nulstillet!',
  	'RESET_ROLE_DATA'        => 'Nulstil rolledata',
  	'RESET_ROLE_DATA_EXPLAIN'    => 'Dette trin vil nulstille phpBBs systemroller, så standardindstillinger vil gælde for disse. Det anbefales at udføre dette, hvis du foretog ændringer i tidligere trin.',
+	'ROLE_SETTINGS'          => 'Rolleindstillinger',
 	'ROWS'							=> 'Rækker',
 
 	'SECTION_NOT_CHANGED_TITLE'		=> array(

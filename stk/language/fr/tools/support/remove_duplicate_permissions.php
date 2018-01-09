@@ -1,11 +1,13 @@
 <?php
 /**
 *
+* [french]
+*
 * @package Support Toolkit - Duplicate Permission Remover
-* @version 1.0.1
-* @author Maël Soucaze (Maël Soucaze) <maelsoucaze@phpbb.com> http://mael.soucaze.com/
-* @copyright (c) 2009 phpBB Group, 2009 Maël Soucaze
+* @version $Id:	papicx	1.0.7	05/05/2013	21h10	$
+* @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @Translation phpBB-fr http://www.phpbb-fr.com
 *
 */
 
@@ -38,14 +40,14 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
-	'DUPLICATES_FOUND'						=> 'L’outil a trouvé et a supprimé toutes les permissions dupliquées.',
+	'DUPLICATES_FOUND'						=> 'L’outil a trouvé et supprimé toutes les permissions dupliquées.',
 
-	'NO_DUPLICATES_FOUND'					=> 'L’outil a terminé la vérification des permissions dupliquées et n’en a trouvé aucune.',
+	'NO_DUPLICATES_FOUND'					=> 'L’outil a terminé la vérification des permissions dupliquées et n’en a pas trouvé.',
 
 	'REMOVE_DUPLICATE_PERMISSIONS'			=> 'Supprimer les permissions dupliquées',
-	'REMOVE_DUPLICATE_PERMISSIONS_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer les permissions dupliquées ?',
+	'REMOVE_DUPLICATE_PERMISSIONS_CONFIRM'	=> 'Êtes-vous sûr(e) de vouloir supprimer les permissions dupliquées ?',
 ));

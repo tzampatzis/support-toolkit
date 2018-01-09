@@ -1,17 +1,19 @@
 <?php
 /**
- *
- * @package Support Toolkit - Resync Attachments
- * @version 1.0.1
- * @author Maël Soucaze (Maël Soucaze) <maelsoucaze@phpbb.com> http://mael.soucaze.com/  
- * @copyright (c) 2009 phpBB Group, 2009 Maël Soucaze
- * @license http://opensource.org/licenses/gpl-license.php GNU Public License
- *
- */
+*
+* [french]
+*
+* @package Support Toolkit - Resync Attachments
+* @version $Id:	papicx	1.0.7	05/05/2013	20h55	$
+* @copyright (c) 2009 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @Translation phpBB-fr http://www.phpbb-fr.com
+*
+*/
 
 /**
- * DO NOT CHANGE
- */
+* DO NOT CHANGE
+*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -35,12 +37,12 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
-	'RESYNC_ATTACHMENTS'			=> 'Resynchroniser les pièces jointes',
-	'RESYNC_ATTACHMENTS_CONFIRM'	=> 'Cet outil vérifiera si toutes les pièces jointes stockées actuellement dans la base de données ont un fichier sur le serveur. Si le fichier est manquant, cet outil supprimera la pièce jointe de la base de données. Êtes-vous sûr de vouloir continuer ?',
-	'RESYNC_ATTACHMENTS_FINISHED'	=> 'Les pièces jointes ont été resynchronisées avec succès !',
-	'RESYNC_ATTACHMENTS_PROGRESS'	=> 'Resynchronisation des pièces jointes en cours. Merci de ne pas interrompre ce processus.',
+	'RESYNC_ATTACHMENTS'			=> 'Resynchroniser les fichiers joints',
+	'RESYNC_ATTACHMENTS_CONFIRM'	=> 'Cet outil vérifiera si tous les liens vers des fichiers joints stockés actuellement dans la base de données ont un fichier sur le serveur. Si un fichier est manquant, cet outil supprimera son lien dans la base de données. Êtes-vous sûr(e) de vouloir continuer ?',
+	'RESYNC_ATTACHMENTS_FINISHED'	=> 'Les fichiers joints ont été resynchronisés.',
+	'RESYNC_ATTACHMENTS_PROGRESS'	=> 'Resynchronisation des fichiers joints en cours. Veuillez ne pas interrompre cette opération.',
 ));

@@ -96,6 +96,7 @@ $lang = array_merge($lang, array(
 	'RESET_REPORT_REASONS_SUCCESS'	=> 'Bildiri sebepleri başarıyla sıfırlandı!',
 	'RESET_ROLE_DATA'				=> 'Rol verilerini sıfırla',
 	'RESET_ROLE_DATA_EXPLAIN'		=> 'Bu adım phpBB sistem rollerini orijinal hallerine geri döndürecektir, eğer önceki adımda değişiklikler yaptıysanız bu işlemi yapmanız yüksek derecede tavsiye edilir.',	
+	'ROLE_SETTINGS'					=> 'Rol Ayarları',
 	'ROWS'							=> 'Satırlar',
 
 	'SECTION_NOT_CHANGED_TITLE'		=> array(
@@ -115,8 +116,8 @@ $lang = array_merge($lang, array(
 		'config'			=> 'Ayar tablosu herhangi yeni/kayıp değerlere sahip değil',
 		'extension_groups'	=> 'Uzantı grupları tablosu yeni/kayıp değere sahip değil',
 		'extensions'		=> 'Varsayılan uzantılar değiştirilmedi',		
-		'permissions'		=> 'İzin tablolarında herhangi bir değişiklik yok',
-		'groups'			=> 'phpBB sistem gruplarında herhangi bir değişiklik yok',
+		'permissions'		=> 'İzin tablolarında herhangi bir değişiklik yapılmadı',
+		'groups'			=> 'phpBB sistem gruplarında herhangi bir değişiklik yapılmadı',
 		'roles'				=> 'Hiç bir rol eklenmedi ya da kaldırılmadı',
 		'final_step'		=> 'Bu son aşama önbelleği temizleyecek ve mesaj panosunu yeniden aktif hale getirecektir.',
 	),

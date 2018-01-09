@@ -2,8 +2,8 @@
 /**
 *
 * @package Support Toolkit - SQL Query
-* @version $Id: sql_query.php 325 2010-10-17 20:54:48Z Raimon $
-* @copyright (c) 2009 phpBB Group
+* @version $Id$
+* @copyright (c) 2009 phpBB Group , 2013 http://www.phpBBservice.nl
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */

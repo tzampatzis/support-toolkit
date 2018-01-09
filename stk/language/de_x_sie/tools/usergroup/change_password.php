@@ -1,13 +1,12 @@
 <?php
 /**
 *
-* @package Support Toolkit - Change Password
-* @version $Id: change_password.php 544 2011-01-30 16:52:26Z philippk $
+* @package Support Toolkit - Change Password [Deutsch — Sie]
 * @copyright (c) 2009 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* siehe docs/AUTHORS und http://www.phpbb.de/go/ubersetzerteam
+* siehe docs/README und https://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -42,11 +41,16 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'CHANGE_PASSWORD'			=> 'Passwort ändern',
-	'CHANGE_PASSWORD_EXPLAIN'	=> 'Passwort eines Benutzers ändern.',
+	'CHANGE_PASSWORD_EXPLAIN'	=> 'Passwort eines Benutzers ändern.<br /><strong>Sie müssen entweder den Benutzernamen oder die ID des Benutzers angeben.</strong>',
 	'CHANGE_PASSWORD_SUCCESS'	=> 'Das Passwort des Benutzers <a href="%s">%s</a> wurde erfolgreich geändert.',
+
+	'FIELDS_NOT_FILLED'			=> 'Es muss ein Feld ausgefüllt werden.',
+	'FIELDS_BOTH_FILLED'		=> 'Es darf nur ein Feld ausgefüllt werden.',
 
 	'PASSWORD_CONFIRM'			=> 'Bestätigung des Passworts',
 
-	'USERNAMEID'				=> 'Benutzername oder ID des Benutzers',
-	'USERNAMEID_EXPLAIN'		=> 'Geben Sie den Benutzernamen oder die ID des Benutzers ein, dessen Passwort Sie ändern möchten.',
+	'USERNAME_NAME'				=> 'Benutzername',
+	'USERNAME_NAME_EXPLAIN'		=> 'Geben Sie den Benutzernamen des Benutzers ein, dessen Passwort Sie ändern möchten.',
+	'USERNAMEID'				=> 'ID des Benutzers',
+	'USERNAMEID_EXPLAIN'		=> 'Geben Sie die ID des Benutzers ein, dessen Passwort Sie ändern möchten.',
 ));

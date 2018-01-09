@@ -1,11 +1,13 @@
 <?php
 /**
 *
+* [french]
+*
 * @package Support Toolkit - Restore Delted Users
-* @version 1.0.1
-* @author Maël Soucaze (Maël Soucaze) <maelsoucaze@phpbb.com> http://mael.soucaze.com/
-* @copyright (c) 2009 phpBB Group, 2009 Maël Soucaze
+* @version $Id:	papicx	1.0.7	05/05/2013	21h10	$
+* @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @Translation phpBB-fr http://www.phpbb-fr.com
 *
 */
 
@@ -35,20 +37,23 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
-	'NO_DELETED_USERS'	=> 'Il n’y a aucun utilisateur supprimé pouvant être restauré',
-	'NO_USER_SELECTED'	=> 'Aucun utilisateur n’a été sélectionné !',
+	'DAMAGED_POSTS'			=> 'Messages endommagés',
+	'DAMAGED_POSTS_EXPLAIN'	=> 'Les ID des messages suivants contiennent des informations sur l’utilisateur trop endommagées pour être restaurées. Veuillez visiter les <a href="https://www.phpbb.com/community/viewforum.php?f=46">forums de support phpBB.com</a> ou les <a href="http://forums.phpbb-fr.com/support-phpbb3/">forums de support de phpBB-fr.com</a> afin de recevoir une aide pour résoudre ce problème.',
+
+	'NO_DELETED_USERS'							=> 'Il n’y a aucun utilisateur supprimé pouvant être restauré',
+	'NO_USER_SELECTED'							=> 'Aucun utilisateur n’a été sélectionné !',
 
 	'RESTORE_DELETED_USERS'						=> 'Restaurer les utilisateurs supprimés',
 	'RESTORE_DELETED_USERS_CONFLICT'			=> 'Restaurer les utilisateurs supprimés :: En conflit',
-	'RESTORE_DELETED_USERS_CONFLICT_EXPLAIN'	=> 'Cet outil vous permet de restaurer des utilisateurs qui ont été supprimés à partir du forum mais qui conservent des messages en « invité ».<br />Ces utilisateurs se verront assigner un mot de passe aléatoire que vous devrez réinitialiser manuellement après que l’outil ait été exécuté ; cet outil ne fournit <b>pas</b> une liste de ces mots de passe générés.<br /><br />Durant sa dernière exécution, cet outil a trouvé certains noms d’utilisateurs qui existent déjà sur ce forum. Veuillez fournir un nouveau nom concernant ces utilisateurs.',
-	'RESTORE_DELETED_USERS_EXPLAIN'				=> 'Cet outil vous permet de restaurer des utilisateurs qui ont été supprimés à partir du forum mais qui conservent des messages en « invité ».<br />Ces utilisateurs se verront assigner un mot de passe aléatoire que vous devrez réinitialiser manuellement après que l’outil ait été exécuté ; cet outil ne fournit <b>pas</b> une liste de ces mots de passe générés.',
+	'RESTORE_DELETED_USERS_CONFLICT_EXPLAIN'	=> 'Cet outil vous permet de restaurer des utilisateurs qui ont été supprimés à partir du forum mais qui conservent des messages en « invité ».<br />Ces utilisateurs se verront assigner un mot de passe aléatoire que vous devrez réinitialiser manuellement après que l’outil ait été exécuté. Cet outil <b>ne</b> fournit <b>pas</b> une liste de ces mots de passe générés.<br /><br />Durant sa dernière exécution, cet outil a trouvé certains noms d’utilisateurs qui existent déjà sur ce forum. Veuillez fournir un nouveau nom concernant ces utilisateurs.',
+	'RESTORE_DELETED_USERS_EXPLAIN'				=> 'Cet outil vous permet de restaurer des utilisateurs qui ont été supprimés à partir du forum mais qui conservent des messages en « invité ».<br />Ces utilisateurs se verront assigner un mot de passe aléatoire que vous devrez réinitialiser manuellement après que l’outil ait été exécuté. Cet outil <b>ne</b> fournit <b>pas</b> une liste de ces mots de passe générés.',
 
-	'SELECT_USERS'	=> 'Sélectionner les utilisateurs à restaurer',
+	'SELECT_USERS'					=> 'Sélectionner les utilisateurs à restaurer',
 
-	'USER_RESTORED_SUCCESSFULLY'	=> 'L’utilisateur que vous avez sélectionné a été restauré avec succès.',
-	'USERS_RESTORED_SUCCESSFULLY'	=> 'Les utilisateurs que vous avez sélectionnés ont été restaurés avec succès.',
+	'USER_RESTORED_SUCCESSFULLY'	=> 'L’utilisateur que vous avez sélectionné a été restauré.',
+	'USERS_RESTORED_SUCCESSFULLY'	=> 'Les utilisateurs que vous avez sélectionnés ont été restaurés.',
 ));

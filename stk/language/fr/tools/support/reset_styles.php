@@ -1,11 +1,13 @@
 <?php
 /**
 *
+* [french]
+*
 * @package Support Toolkit - Reset Styles
-* @version 1.0.1
-* @author Maël Soucaze (Maël Soucaze) <maelsoucaze@phpbb.com> http://mael.soucaze.com/
-* @copyright (c) 2009 phpBB Group, 2009 Maël Soucaze
+* @version $Id:	papicx	1.0.7	05/05/2013	16h07	$
+* @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @Translation phpBB-fr http://www.phpbb-fr.com
 *
 */
 
@@ -35,14 +37,14 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
 	'RESET_STYLES'			=> 'Réinitialiser les styles',
-	'RESET_STYLES_EXPLAIN'	=> 'Cet outil vous permet de modifier un style par défaut du forum.',
-	'RESET_STYLE_COMPLETE'	=> 'Le style par défaut a été modifié avec succès.',
+	'RESET_STYLES_EXPLAIN'	=> 'Cet outil vous permet de modifier le style par défaut du forum.',
+	'RESET_STYLE_COMPLETE'	=> 'Le style par défaut a été modifié.',
 
 	'STYLE'					=> 'Style',
-	'STYLE_EXPLAIN'			=> 'Sélectionnez le style que vous souhaitez régler comme celui à utiliser par défaut.',
+	'STYLE_EXPLAIN'			=> 'Sélectionnez le style que vous souhaitez définir comme style par défaut.',
 ));
